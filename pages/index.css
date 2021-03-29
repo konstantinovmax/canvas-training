@@ -8,3 +8,27 @@
     background-color: #fff;
     position: absolute;
 }
+
+.button-container {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.clear-button {
+    font-style: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.clear-button:hover {
+    opacity: 0.6;
+    transition: ease .3s;
+}

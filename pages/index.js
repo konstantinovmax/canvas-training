@@ -31,11 +31,11 @@ canvasBody.addEventListener('mousemove', function(e) {
 });
 
 function clear() {
-    canvas.fillStyle = 'white';
+    canvas.fillStyle = '#fff';
     canvas.fillRect(0, 0, canvasWidth, canvasHeight);
 
     canvas.beginPath();
-    canvas.fillStyle = 'black';
+    canvas.fillStyle = '#000';
 }
 
 clearButton.addEventListener('click', clear);
